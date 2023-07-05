@@ -17,7 +17,7 @@ const generateQuote = async () => {
     } else {
       try {
         // Make a GET request to the backend API
-        const response = await fetch(`http://localhost:3000/generate-quote?keyword=${encodeURIComponent(keyword)}`);
+        const response = await fetch(`https://dull-blue-abalone-sari.cyclic.app/generate-quote?keyword=${encodeURIComponent(keyword)}`);
         const data = await response.json();
   
         if (response.ok) {

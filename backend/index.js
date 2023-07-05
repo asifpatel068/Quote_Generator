@@ -13,7 +13,9 @@ const configuration = new Configuration({
 const openai = new OpenAIApi(configuration);
 
 // Middleware to parse JSON requests
-const history = [];
+app.get('/',(req, res) => {
+    res.send("Welcome to Quote ChatBot")
+})
 // API endpoint for generating Shayari
 app.get('/generate-quote', async (req, res) => {
     const user_input = `Write a quote about ${req.query.keyword}.`;
