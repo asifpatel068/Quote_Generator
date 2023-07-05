@@ -1,10 +1,12 @@
+# Deployed link: `https://quote-generator-ten-omega.vercel.app/`
+
 # Quote Generator API Documentation
 
 The Quote Generator API provides a simple and convenient way to generate inspirational or motivational quotes based on user input. It integrates with the OpenAI GPT-3.5 Turbo model to generate the quotes. The API accepts a keyword as input and returns a relevant quote in the response.
 
 ## API Endpoint
 
-- Endpoint: `/generate-quote`
+- Endpoint: ` https://quote-generator.onrender.com/generate-quote`
 - Method: GET
 
 ## Request Parameters
@@ -15,7 +17,7 @@ The Quote Generator API provides a simple and convenient way to generate inspira
 
 ## Example Request
 
-GET /generate-quote?keyword=success
+GET  https://quote-generator.onrender.com/generate-quote?keyword=success
 
 
 ## Example Response
